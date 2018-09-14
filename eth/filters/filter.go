@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/uvoz/go-ethereum/common"
+	"github.com/uvoz/go-ethereum/core"
+	"github.com/uvoz/go-ethereum/core/bloombits"
+	"github.com/uvoz/go-ethereum/core/types"
+	"github.com/uvoz/go-ethereum/ethdb"
+	"github.com/uvoz/go-ethereum/event"
+	"github.com/uvoz/go-ethereum/rpc"
 )
 
 type Backend interface {

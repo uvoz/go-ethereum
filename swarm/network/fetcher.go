@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/uvoz/go-ethereum/log"
+	"github.com/uvoz/go-ethereum/p2p/discover"
+	"github.com/uvoz/go-ethereum/swarm/storage"
 )
 
 var searchTimeout = 1 * time.Second

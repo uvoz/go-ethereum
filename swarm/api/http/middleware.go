@@ -6,11 +6,11 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/sctx"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
+	"github.com/uvoz/go-ethereum/metrics"
+	"github.com/uvoz/go-ethereum/swarm/api"
+	"github.com/uvoz/go-ethereum/swarm/log"
+	"github.com/uvoz/go-ethereum/swarm/sctx"
+	"github.com/uvoz/go-ethereum/swarm/spancontext"
 	"github.com/pborman/uuid"
 )
 

@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/uvoz/go-ethereum/common"
+	"github.com/uvoz/go-ethereum/core/types"
+	"github.com/uvoz/go-ethereum/ethdb"
+	"github.com/uvoz/go-ethereum/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

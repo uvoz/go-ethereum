@@ -23,13 +23,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/uvoz/go-ethereum/event"
+	"github.com/uvoz/go-ethereum/log"
+	"github.com/uvoz/go-ethereum/node"
+	"github.com/uvoz/go-ethereum/p2p"
+	"github.com/uvoz/go-ethereum/p2p/discover"
+	"github.com/uvoz/go-ethereum/p2p/simulations/pipes"
+	"github.com/uvoz/go-ethereum/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

@@ -19,8 +19,8 @@ package mru
 import (
 	"crypto/ecdsa"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/uvoz/go-ethereum/common"
+	"github.com/uvoz/go-ethereum/crypto"
 )
 
 const signatureLength = 65

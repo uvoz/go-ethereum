@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/network/simulation"
-	"github.com/ethereum/go-ethereum/swarm/state"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/uvoz/go-ethereum/node"
+	"github.com/uvoz/go-ethereum/p2p/discover"
+	"github.com/uvoz/go-ethereum/p2p/simulations/adapters"
+	"github.com/uvoz/go-ethereum/swarm/log"
+	"github.com/uvoz/go-ethereum/swarm/network"
+	"github.com/uvoz/go-ethereum/swarm/network/simulation"
+	"github.com/uvoz/go-ethereum/swarm/state"
+	"github.com/uvoz/go-ethereum/swarm/storage"
 )
 
 //constants for random file generation
