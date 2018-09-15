@@ -35,14 +35,14 @@ import (
 )
 
 const (
-	datasetInitBytes   = 1 << 30 // Bytes in dataset at genesis
-	datasetGrowthBytes = 1 << 23 // Dataset growth per epoch
+	datasetInitBytes   = 1 << 16 // Bytes in dataset at genesis uvoz: modified
+	datasetGrowthBytes = 1 << 0 // Dataset growth per epoch
 	cacheInitBytes     = 1 << 24 // Bytes in cache at genesis
 	cacheGrowthBytes   = 1 << 17 // Cache growth per epoch
-	epochLength        = 30000   // Blocks per epoch
+	epochLength        = 5000   // Blocks per epoch
 	mixBytes           = 128     // Width of mix
-	hashBytes          = 64      // Hash length in bytes
-	hashWords          = 16      // Number of 32 bit ints in a hash
+	hashBytes          = 64      // Hash length in bytes uvoz: modified from 64 to 128
+	hashWords          = 16      // Number of 32 bit ints in a hash  modified from 16 to 32
 	datasetParents     = 256     // Number of parents of each dataset element
 	cacheRounds        = 3       // Number of rounds in cache production
 	loopAccesses       = 64      // Number of accesses in hashimoto loop
