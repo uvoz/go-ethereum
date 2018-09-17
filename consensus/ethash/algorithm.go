@@ -70,13 +70,15 @@ func calcCacheSize(epoch int) uint64 {
 }
 
 // datasetSize returns the size of the ethash mining dataset that belongs to a certain
-// block number.
+// block number. uvoz: trying tiny datasize
 func datasetSize(block uint64) uint64 {
 	epoch := int(block / epochLength)
 	if epoch < maxEpoch {
-		return datasetSizes[epoch]
+		//return datasetSizes[epoch]
+		return 65536
 	}
-	return calcDatasetSize(epoch)
+	//return calcDatasetSize(epoch)
+	return 65536
 }
 
 // calcDatasetSize calculates the dataset size for epoch. The dataset size grows linearly,
