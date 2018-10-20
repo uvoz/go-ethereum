@@ -49,7 +49,7 @@ var (
 		Ethash:              new(EthashConfig),
 	} modified uvoz*/
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(15),
+		ChainID:             big.NewInt(1),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        big.NewInt(0),
 		DAOForkSupport:      false,
